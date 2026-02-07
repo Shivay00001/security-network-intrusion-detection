@@ -1,8 +1,11 @@
-# Security Network Intrusion Detection
+# Network Intrusion Detection System (NIDS)
 
-This repository contains the source code and configuration for **security-network-intrusion-detection**, a part of the advanced engineering showcase.
+Experimental NIDS written in Rust for high-performance packet analysis.
 
 ## Features
-- Professional-grade architecture
-- Clean code principles
-- Ready for production deployment
+- Real-time packet capture
+- Signature-based detection
+- Low latency
+
+## Build
+`cargo build --release`
